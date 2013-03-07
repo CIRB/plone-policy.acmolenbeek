@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="policy.acmolenbeek">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="policy.acmolenbeek"
+      directory="profiles/default"
+      description='Extension profile : A Plone policy for ac Molenbeek website.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="policy.acmolenbeek.various"
+      title="policy.acmolenbeek: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="policy.acmolenbeek.setuphandlers.setupVarious">
+    <depends name="Products.LinguaPlone"/>
+  </genericsetup:importStep>
+
+</configure>
