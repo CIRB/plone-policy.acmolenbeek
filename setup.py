@@ -27,8 +27,16 @@ setup(name='policy.acmolenbeek',
           'setuptools',
           'Plone',
           'Products.LinguaPlone',
+          'collective.ckeditor',
           'cirb.zopemonitoring',
           # -*- Extra requirements: -*-
+          'plonetheme.acmolenbeek',
+          'collective.easyslider',
+          'collective.gallery',
+          'collective.quickupload',
+          'Solgema.fullcalendar',
+          'collective.js.innerfade',
+          'Products.PloneFormGen',
       ],
       entry_points="""
       # -*- Entry points: -*-

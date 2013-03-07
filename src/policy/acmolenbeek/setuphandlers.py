@@ -36,12 +36,12 @@ def setupVarious(context):
 
     site = context.getSite()
 
-    for folder_name in ['news', 'events', 'Members']
+    for folder_name in ['news', 'events', 'Members']:
         if getattr(site, folder_name, None):
             folder = getattr(site, folder_name)
             folder.setExcludeFromNav(True)
             folder.reindexObject()
-  
+
     if not getattr(site, 'fr', None):
         setupLinguaFolders(site, logger)
         setup_tool = context.getSetupTool()
