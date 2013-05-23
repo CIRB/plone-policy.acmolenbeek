@@ -37,6 +37,7 @@ setup(name='policy.acmolenbeek',
           'Solgema.fullcalendar',
           'collective.js.innerfade',
           'Products.PloneFormGen',
+          'collective.milf',
       ],
       entry_points="""
       # -*- Entry points: -*-
