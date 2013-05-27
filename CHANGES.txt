@@ -4,7 +4,7 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Renamed collective.milf into collective.languagemovefolders
 
 
 1.0.2 (2013-05-23)
