@@ -42,6 +42,7 @@ setup(name='policy.acmolenbeek',
           'collective.js.innerfade',
           'Products.PloneFormGen',
           'quintagroup.analytics',
+          'collective.checktranslated',
           'collective.languagemovefolders',
       ],
       entry_points="""

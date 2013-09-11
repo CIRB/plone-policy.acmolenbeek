@@ -12,5 +12,6 @@
   <include package="collective.anysurfer" />
   <include package="collective.videoanysurfer" />
   <include package="collective.portlet.videoanysurfer" />
+  <include package="collective.checktranslated" />
 
 </configure>
